@@ -1,0 +1,34 @@
+{
+  "name": "mini-ci",
+  "version": "1.0.0",
+  "description": "Continuous Integration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo 'OK'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrCheater/mini-ci.git"
+  },
+  "keywords": [
+    "continuous",
+    "integration",
+    "ci",
+    "zip",
+    "unzip"
+  ],
+  "author": "Mr.Cheater (Zhukov Anton)",
+  "license": "MIT",
+  "bin": {
+    "mini-ci": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/MrCheater/mini-ci/issues"
+  },
+  "homepage": "https://github.com/MrCheater/mini-ci#readme",
+  "dependencies": {
+    "archiver": "^1.3.0",
+    "minimist": "^1.2.0",
+    "superagent": "^3.5.2"
+  }
+}
