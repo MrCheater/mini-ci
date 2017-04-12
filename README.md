@@ -1,0 +1,2 @@
+# mini-ci
+Continuous Integration
