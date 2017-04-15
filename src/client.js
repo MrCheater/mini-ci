@@ -39,7 +39,7 @@ archive.bulk([
     {
         expand: true,
         cwd: '.',
-        src: ['./dist/**','./package.json', './node_modules/**']
+        src: ['./dist/**','./package.json', './node_modules/**', './static/**', './public/**']
     }
 ]);
 
